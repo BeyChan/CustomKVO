@@ -13,6 +13,7 @@
 		A7ADCA221DC4A9FA005AA986 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7ADCA201DC4A9FA005AA986 /* Main.storyboard */; };
 		A7ADCA241DC4A9FA005AA986 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7ADCA231DC4A9FA005AA986 /* Assets.xcassets */; };
 		A7ADCA271DC4A9FA005AA986 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7ADCA251DC4A9FA005AA986 /* LaunchScreen.storyboard */; };
+		A7ADCA301DC4AAE9005AA986 /* NSObject+KVOHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = A7ADCA2F1DC4AAE9005AA986 /* NSObject+KVOHelp.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		A7ADCA231DC4A9FA005AA986 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7ADCA261DC4A9FA005AA986 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7ADCA281DC4A9FA005AA986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7ADCA2E1DC4AAE9005AA986 /* NSObject+KVOHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVOHelp.h"; sourceTree = "<group>"; };
+		A7ADCA2F1DC4AAE9005AA986 /* NSObject+KVOHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVOHelp.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				A7ADCA1B1DC4A9FA005AA986 /* AppDelegate.m */,
 				A7ADCA1D1DC4A9FA005AA986 /* ViewController.h */,
 				A7ADCA1E1DC4A9FA005AA986 /* ViewController.m */,
+				A7ADCA2E1DC4AAE9005AA986 /* NSObject+KVOHelp.h */,
+				A7ADCA2F1DC4AAE9005AA986 /* NSObject+KVOHelp.m */,
 				A7ADCA201DC4A9FA005AA986 /* Main.storyboard */,
 				A7ADCA231DC4A9FA005AA986 /* Assets.xcassets */,
 				A7ADCA251DC4A9FA005AA986 /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7ADCA1F1DC4A9FA005AA986 /* ViewController.m in Sources */,
+				A7ADCA301DC4AAE9005AA986 /* NSObject+KVOHelp.m in Sources */,
 				A7ADCA1C1DC4A9FA005AA986 /* AppDelegate.m in Sources */,
 				A7ADCA191DC4A9FA005AA986 /* main.m in Sources */,
 			);
